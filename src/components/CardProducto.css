@@ -1,0 +1,56 @@
+li {
+    margin: 15px;
+    box-shadow: 3px 13px 34px -9px grey;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li > p {
+    font-size: 1.4em;
+    font-weight: 400;
+
+}
+
+li > .contenedor_cantidad {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+li > .contenedor_cantidad > p {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4em;
+    font-weight: 400;
+    
+}
+
+li > .contenedor_cantidad > button {
+    background-color: #0490b3;
+    border: 1px solid #0490b3;
+    border-radius: 8px;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+li > button {
+    background-color: rgb(186, 103, 103);
+    border: 1px solid rgb(186, 103, 103);
+    border-radius: 8px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+li > button:hover {
+    background-color: white;
+    color: rgb(186, 103, 103);
+}
+
